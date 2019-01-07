@@ -39,6 +39,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  
 }
 
 .text-faded {
@@ -86,6 +87,7 @@ h6 {
 }
 
 .masthead {
+  font-family: cursive;
   min-height: 30rem;
   position: relative;
   display: table;
@@ -93,14 +95,17 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
-  background-position: center center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/programmer.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/programmer.png")  no-repeat center center fixed;
+  /* https://cdn.dribbble.com/users/1162077/screenshots/3792792/programmer.png */
+  /* background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .masthead h1 {
+  color: #4b6394;
+  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
   font-size: 4rem;
   margin: 0;
   padding: 0;
@@ -126,7 +131,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: #4b6394;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -206,7 +211,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #4b6394;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -312,7 +317,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #4b6394;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -320,27 +325,29 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #d5d8e2;
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: #4b6394;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #d5d8e2;
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
-  color: #fff !important;
+  background-color: white !important;
+  border-color: #4b6394 !important;
+  color: #4b6394 !important;
+  border-radius: 20px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #4b6394 !important;
+  border-color: white !important;
+  color: white !important;
 }
 
 .btn-secondary {
@@ -365,11 +372,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #4b6394 !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #4b6394 !important;
 }
 
 .text-secondary {
