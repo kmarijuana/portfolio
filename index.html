@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Taweepong Mekchai ( Kay ) Portfolio :: Stylish Portfolio - Start Bootstrap Template</title>
+  <title>My Portfolio :: Stylish Portfolio - Start Bootstrap Template</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
         <a class="js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
+        <a class="js-scroll-trigger" href="#skill">Skills</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -77,7 +77,9 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>Info</h2>
+          <h4 style="color: #4b6394 !important;">Info</h4>
+          <h2 class="mb-5" style="color: white;
+          text-shadow: -2px 0 #4b6394, 0 2px #4b6394, 2px 0 #4b6394, 0 -2px #4b6394;">Timeline</h2>
 
           <style>
             /* html, body {
@@ -120,7 +122,7 @@
             }
 
             section#timeline article div.inner {
-              width: 40%;
+              width: 35%;
               float: left;
               margin: 5px 0 0 0;
               border-radius: 6px;
@@ -185,6 +187,8 @@
             }
 
             section#timeline article div.inner p {
+              max-height: 300px;
+              overflow-y: scroll;
               padding: 15px;
               margin: 0;
               font-size: 14px;
@@ -241,6 +245,41 @@
             section#timeline article:nth-child(5) div.inner h2:after {
               background: #9b59b6;
             }
+
+            section#timeline article:nth-child(6) div.inner h2 {
+              background: #e6b220;
+            }
+
+            section#timeline article:nth-child(6) div.inner h2:after {
+              background: #e6b220;
+            }
+
+
+
+
+            ::-webkit-scrollbar {
+              width: 5px;
+              height: 5px;
+            }
+
+            /* Track */
+            ::-webkit-scrollbar-track {
+              background: #f1f1f1;
+            }
+
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+              background: #888;
+            }
+
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+              background: #555;
+            }
+
+            img {
+    cursor: zoom-in;
+}
           </style>
 
 
@@ -253,8 +292,10 @@
                   <!-- <span class="year"></span> -->
                 </span>
                 <h2>Freshman</h2>
-                <p>Join the College Programming Competition at "18th Network Game" Result : Lose.</p>
-                <p>Microsofe Office Specialist 2013.</p>
+                <p>Join the College Programming Competition at "18th Network Game"
+                  <span><img src="./img/18Logo.png" style="max-width: 100%; height: auto;" /></span><br>
+                  Result : Lose.</p>
+                <p>Microsofe Office Specialist 2013. <span><img src="./img/word.jpg" style="max-width: 100%; height: auto;" /></span><br></p>
               </div>
             </article>
             <article>
@@ -265,8 +306,10 @@
                   <span class="year">2014</span>
                 </span>
                 <h2>Sophomore</h2>
-                <p>Join the College Programming Competition at "19th Network Game" Result : win.</p>
-                <p>Join interlink campus tour 2014 by interlink communication public company limited.</p>
+                <p>Join the College Programming Competition at "19th Network Game" <br> Result : win.</p>
+                <p>Join interlink campus tour 2014 by interlink communication public company limited.
+                  <span><img src="./img/Network.jpg" style="max-width: 100%; height: auto;" /></span>
+                </p>
               </div>
             </article>
             <article>
@@ -277,7 +320,10 @@
                   <span class="year">2015</span>
                 </span>
                 <h2>Junior</h2>
-                <p>Join the Chess Tournament at "20th Network Game" Result : Lose.</p>
+                <p>Join the Chess Tournament at "20th Network Game"
+                  <span><img src="./img/20Network.jpg" style="max-width: 100%; height: auto;" /></span>
+                  <br>Result : Lose.
+                </p>
               </div>
             </article>
             <article>
@@ -290,37 +336,21 @@
                 <h2>Senior</h2>
                 <p>
                   Internship Programmer<br>( 2016-06 - 2016-09 )<br>
-                  D.T.C. Enterprise Co., Ltd.
-                  Develop prototype using HTML, JavaScript,
-                  Css, Bootstrap, and implementing the
-                  Dee-map mapping API for development
-                  Website Application "Excise Department",
-                  "Alcohol / Tobacco", "Tax Map" under work
-                  in the company.
-                  ● Compensation
-                  300 Baht per day
-                  ● Reason for leaving the job
-                  End of internship</p>
+                  <span><img src="./img/dtc.jpg" style="max-width: 100%; height: auto;" /></span>
+                  <br>D.T.C. Enterprise Co., Ltd.
+                  <br>Develop prototype using HTML, JavaScript, Css, Bootstrap, and implementing the Dee-map mapping API for development Website Application "Excise Department", "Alcohol / Tobacco", "Tax Map" under work in the company.
+                  <br><br>● salary : 300 Baht per day
+                  <br><br>● Reason for leaving the job End of internship
+                </p>
                 <p>
                   Part-time Programmer<br>( 2016-09 - 2017-02 )<br>
-                  The Eight Republic Co., Ltd.
-                  Develop store management system.
-                  1. "EightMart Moblie Application" developed
-                  using Android studio as a tool, libarty using
-                  Google Map, Login Facebook, RecycleView,
-                  Okhttp, Glide, Parceler.
-                  2. "The Eight Management System Web
-                  Application" developed using Atom Program
-                  as a tool, Fontend using free template html5
-                  by https://freehtml5.co/ As a basis for
-                  customization, use JavaScript and Jquery to
-                  write functions, use Ajax to retrieve API,
-                  send data backend, use PHP for database
-                  connection, and use MySql as a database.
-                  ● Compensation
-                  7000 Baht per month
-                  ● Reason for leaving the job
-                  Out of back to the make graduation project
+                  <span><img src="./img/eightmart.jpg" style="max-width: 100%; height: auto;" /></span>
+                  <br>The Eight Republic Co., Ltd.
+                  <br>Develop store management system.
+                  <br>1. "EightMart Moblie Application" developed using Android studio as a tool, libarty using Google Map, Login Facebook, RecycleView, Okhttp, Glide, Parceler.
+                  <br>2. "The Eight Management System Web Application" developed using Atom Program as a tool, Fontend using free template html5 by https://freehtml5.co/ As a basis for customization, use JavaScript and Jquery to write functions, use Ajax to retrieve API, send data backend, use PHP for database connection, and use MySql as a database.
+                  <br><br>● salary : 7000 Baht per month
+                  <br><br>● Reason for leaving the job Out of back to the make graduation project
                 </p>
               </div>
             </article>
@@ -331,35 +361,53 @@
                   <!-- <span class="month">Jan</span> -->
                   <span class="year">2017</span>
                 </span>
-                <h2>The Title</h2>
+                <h2>First Year of graduation</h2>
                 <p>
-                  Part-time Programmer<br>( 2016-09 - 2017-02 )<br>
-                  The Eight Republic Co., Ltd.
-                  Develop store management system.
-                  1. "EightMart Moblie Application" developed
-                  using Android studio as a tool, libarty using
-                  Google Map, Login Facebook, RecycleView,
-                  Okhttp, Glide, Parceler.
-                  2. "The Eight Management System Web
-                  Application" developed using Atom Program
-                  as a tool, Fontend using free template html5
-                  by https://freehtml5.co/ As a basis for
-                  customization, use JavaScript and Jquery to
-                  write functions, use Ajax to retrieve API,
-                  send data backend, use PHP for database
-                  connection, and use MySql as a database.
-                  ● Compensation
-                  7000 Baht per month
-                  ● Reason for leaving the job
-                  Out of back to the make graduation project
+                  Full-Stack Web Developer<br>( 2017-11 - 2018-04 )<br>
+                 
+                  <span><img src="./img/ecartstudio.png" style="max-width: 100%; height: auto;" /></span><br>
+                  Ecartstudio Co., Ltd.<br>
+                  Develop Tracking management system but i work under of the sub company.<br><br>
+             
+                  <span><img src="./img/taxibeam.png" style="max-width: 100%; height: auto;" /></span>
+                  <br>Taxi beam Co., Ltd.
+                  <br>1. "Service for Hardware" developed service API for get buffer from Hardware and convert result into database, using NodeJS development.
+                  <br>2. "Web Masterfile" developed Fontend using Html, Javascript, Css and Npm to make web application create and send masterfile for department of land transport (DLT).
+                  <br>3. “Service API” developed Backend Service API using NodeJS for send Masterfiles and Locations.
+                  <br>4. “AVT Monitor” developed Fontend using Html, Javascript, Css and Npm to make web application Monitor tracking and Management System.
+                  <br>5. “Service API” developed Backend Service API using NodeJS for “AVT Monitor”.
+                  <br><br>● salary : 20000 Baht per month
+                  <br><br>● Reason for leaving the job lost my home and my family need to move out of the old city ( Samut Prakarn ) into rent relative home on new city ( Samut Sakorn ).
                 </p>
               </div>
             </article>
+            <article>
+                <div class="inner">
+                  <span class="date">
+                    <!-- <span class="day">26<sup>th</sup></span> -->
+                    <!-- <span class="month">Jan</span> -->
+                    <span class="year">2018</span>
+                  </span>
+                  <h2>Second Year of graduation</h2>
+                  <p>
+                    Full-Stack Web Developer<br>( 2018-05 - Now )<br>
+                    
+                    <span><img src="./img/asia_logo.png" style="max-width: 100%; height: auto;" /></span>
+                    <br>Asia Group 1999 Co., Ltd.
+                    <br>concrete pile, concrete pile Precast concrete slabs Precast concrete floor Distribution of prestressed concrete piles Produce prestressed concrete piles and precast concrete products ready to serve concrete pile Pile hammer Ready to service all over the country.
+                    <br>The assignment is ERP for management workflow in company.
+                    <br>First job : Develop web application name "Saletools" ดor use within the sales department.
+                    <br>developed Fontend using Html, Javascript, JQuery, NodeJS, Css, SocketIO, JWT, DataTable, Qraphql, Npm and use "AdminLTE template" for UI to make web application
+                    <br><br>● salary : - Baht per month
+                    <br><br>● still working.
+                  </p>
+                </div>
+              </article>
           </section>
 
-          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our
+          <!-- <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our
             friends at
-            <a href="https://unsplash.com/">Unsplash</a>!</p>
+            <a href="https://unsplash.com/">Unsplash</a>!</p> -->
 
           <div class="container-fluid">
             <div class="row">
@@ -407,15 +455,18 @@
       </div>
     </div>
   </section>
-
+  <style>
+      .checked {
+        color: orange;
+      }
+      </style>
   <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-primary text-white text-center" id="skill">
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">programming skill</h3>
         <h2 class="mb-5">Well done</h2>
       </div>
-
       <div class="row mb-5">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -424,6 +475,11 @@
           <h4>
             <strong>HTML</strong>
           </h4>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
           <p class="text-faded mb-0">Have a good understanding of HTML, but prefer to use templates for free because
             it's well-designed and easy!</p>
         </div>
@@ -434,6 +490,11 @@
           <h4>
             <strong>CCS</strong>
           </h4>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
           <p class="text-faded mb-0">Can be customized as needed But I'm bad design and not pretty. You can recommend
             your design for me.</p>
         </div>
@@ -444,6 +505,11 @@
           <h4>
             <strong>JAVASCRIPT</strong>
           </h4>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
           <p class="text-faded mb-0">It cool and i good understand array, object, fetch, asynchronous, callback. but i
             like jquery then more javascript </p>
         </div>
@@ -454,56 +520,80 @@
           <h4>
             <strong>JQUERY</strong>
           </h4>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
           <p class="text-faded mb-0">Very good, able to call all types of services ( GET, POST, PUT, DELETE ) and
             understanding type of services.</p>
         </div>
       </div>
 
       <div class="row mb-5">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Responsive</strong>
-          </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-layers"></i>
+            </span>
+            <h4>
+              <strong>VUEJS</strong>
+            </h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p class="text-faded mb-0">Had studied long ago!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-layers"></i>
+            </span>
+            <h4>
+              <strong>REACTJS</strong>
+            </h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p class="text-faded mb-0">Had studied long ago.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-layers"></i>
+            </span>
+            <h4>
+              <strong>NODEJS</strong>
+            </h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p class="text-faded mb-0">It cool. can make it for all Service</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-layers"></i>
+            </span>
+            <h4>
+              <strong>PHP</strong>
+            </h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p class="text-faded mb-0">Can make easy web service API.</p>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>Redesigned</strong>
-          </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
-      </div>
+  
     </div>
   </section>
 
   <!-- Callout -->
-  <section class="callout">
+  <!-- <section class="callout">
     <div class="container text-center">
       <h2 class="mx-auto mb-5">Welcome to
         <em>your</em>
@@ -511,7 +601,7 @@
       <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download
         Now!</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
@@ -525,8 +615,8 @@
           <a class="portfolio-item" href="#">
             <span class="caption">
               <span class="caption-content">
-                <h2>Stationary</h2>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <h2>eightMart Project</h2>
+                <p class="mb-0">This is a backup prototype!</p>
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
@@ -592,7 +682,7 @@
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/mal2ijuana">
             <i class="icon-social-facebook"></i>
           </a>
         </li>
@@ -602,7 +692,7 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white" href="https://github.com/kmarijuana">
             <i class="icon-social-github"></i>
           </a>
         </li>
@@ -629,3 +719,26 @@
 </body>
 
 </html>
+
+<script>
+  $(function () {
+    $('img').on('click', function () {
+      $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+      $('#enlargeImageModal').modal('show');
+    });
+  });</script>
+
+
+<div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body">
+        <img src="" class="enlargeImageModalSource" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+</div>
